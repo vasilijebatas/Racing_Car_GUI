@@ -28,7 +28,7 @@ Window {
         text: "connect"
         anchors.centerIn: parent
         onClicked: {
-            client.connectToServer("192.168.0.101", "1234");
+            client.connectToServer("YOUR IP", "1234");
         }
     }
 
